@@ -11,10 +11,10 @@
 <body> 
     <main> Dentro de la programación existen muchos tipos de formatos en los cuales un programador puede escribir su código. Hoy hablaremos acerca de Camel Case y del código BEM, los cuales ayudan al usuario en su práctica de programación. Desglosaremos sus ventajas y desventajas, así como la manera de usarlos de la forma más eficiente posible.</main>
 
-     <section class="codebemTT"> <h2>¿Que es el code bem?</h2></section> 
+     <section class="codebemTT"> <h2>¿Que es el CODE BEM?</h2></section> 
        <section class="codebem1">BEM (Block Element Modifier) es una <strong>metodología revolucionaria para nombrar clases en CSS </strong>que transforma el caos del código desordenado en una estructura clara, predecible y fácil de mantener. No es un lenguaje, sino un estilo inteligente que permite a los desarrolladores crear interfaces limpias y modulares, donde cada parte tiene su lugar y su nombre bien definido. ¡Con BEM, el diseño y la programación van de la mano para que tu código hable un idioma que todos puedan entender!  </section>   
 
-        <section class="codebem2"> <h2>Ventajas de usar BEM.</h2>
+        <section class="codebem2"> <h3>Ventajas de usar BEM.</h3>
             <ol>
                 <li><strong>Mejora la legibilidad del código.</strong>
                  Los nombres estructurados facilitan entender rápidamente qué representa cada clase.</li> 
@@ -25,7 +25,7 @@
                 <li><strong>Facilita el trabajo en equipo.</strong> Al seguir un estándar común, todos los desarrolladores entienden y siguen la misma lógica.</li>
                 <li><strong>Permite estilos más específicos y claros.</strong> Los modificadores permiten definir variaciones sin necesidad de crear nuevas clases complejas.</li>
             </ol>
-        <section class="codebem2"><h2>Ejemplos practicos de BEM.</h2></section>
+        <section class="codebem2"><h3>¿Como se ve esto en la practica BEM?.</h3></section>
             <ul>
                 <li><.div class="producto"> <.h3 class="producto__titulo">Zapatos<./h3> <.p class="producto__precio">$49.99<./p> <./div></li>
                 <strong>➤ Ventaja: Facilita identificar claramente a qué bloque pertenecen el título y el precio.</strong>
@@ -36,7 +36,36 @@
                 <li><.ul class="lista"> <.li class="lista__item lista__item--seleccionado">Elemento 1<./li> <.li class="lista__item">Elemento 2<./li> <./ul></li>
                 <strong>➤ Ventaja: Es fácil resaltar o modificar solo los elementos seleccionados de la lista.</strong>
             </ul>    
- 
+        
+        <section class="camelcaseTT"><h2>CamelCase, algo mas que un animal para la programacion.</h2>.</section>
+          <section class="camelcase1"> <strong>Camel case es</strong> una convención de escritura utilizada en programación y desarrollo de software para nombrar variables, funciones o identificadores. Consiste en unir varias palabras sin espacios y capitalizar la primera letra de cada palabra excepto la primera. Esta práctica facilita la lectura y comprensión del código, haciendo que los nombres compuestos sean más claros y fáciles de distinguir visualmente.</section>
+             
+             <section class="camelcase2"></section><h3>Situaciones practicas para el uso de CamelCase.</h3>
+                 <ol>
+                     <li><strong>Nombres de variables</strong>
+                     Ayuda a identificar fácilmente el propósito de la variable al separar visualmente las palabras, mejorando la legibilidad.</li>
+                     <li><strong>Nombres de funciones o métodos</strong>
+                     Facilita distinguir rápidamente qué hace la función, haciendo el código más intuitivo y fácil de entender.</li>
+                    <li><strong>Identificadores en objetos y clases</strong>
+                     Permite mantener una nomenclatura clara y consistente que facilita la navegación y manipulación de objetos complejos.</li>
+                     <li><strong>Parámetros de funciones</strong>
+                     Mejora la claridad en la definición de funciones, ayudando a entender qué datos se esperan recibir.</li>
+                     <li><strong>Propiedades dentro de objetos JSON</strong>
+                     Favorece la coherencia y compatibilidad en la comunicación entre sistemas y APIs, evitando errores de interpretación.</li>   
+                 </ol>
+             <section class="camelcase2"><h3>Demostracion visual del uso bueno del CamelCase.</h3></section>
+                <ul>
+                    <li><.div id="contenedorPrincipal">Contenido aquí<./div></li>
+                    <strong> ➤ Ventaja: Usar camelCase en el id ayuda a identificar claramente el contenedor principal y facilita la manipulación vía JavaScript.</strong>
+                    <li><.button onclick="procesarDatosUsuario()">Enviar<./button></li>
+                    <strong>➤ Ventaja: Nombrar funciones con camelCase hace que el código sea más legible y fácil de entender, mejorando el mantenimiento.</strong>
+                    <li><.input type="text" name="nombreUsuario" placeholder="Ingresa tu nombre"></li>
+                    <strong> ➤ Ventaja: Los nombres de atributos en camelCase facilitan la conexión clara entre el HTML y el código JavaScript que los manipula.</strong>
+                    <li><.p class="mensajeErrorValidacion">Por favor, corrige los errores<./p></li>
+                    <strong> ➤ Ventaja: Clases en camelCase ayudan a mantener un estilo coherente y facilitan su uso en CSS y JavaScript.</strong>
+
+                </ul>
+                
 </section>
     
 </body>
