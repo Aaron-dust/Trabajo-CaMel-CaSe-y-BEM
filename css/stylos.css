@@ -1,1 +1,84 @@
 .codebem1 {background-color: aquamarine;}
+.audio {
+  display: none; }
+<style> 
+ body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F4F4F9;
+  color: #333333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #FFD700;
+  color: #333333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+main {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #FAFAFA;
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+}
+
+section h2, section h3 {
+  color: #FF8C00;
+}
+
+ol, ul {
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li strong {
+  color: #FF4500;
+}
+
+audio {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+}
+
+.codebem1, .camelcase1 {
+  background-color: #F9F9F9;
+  border-left: 4px solid #FF8C00;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.producto, .formulario, .lista {
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+</style>
