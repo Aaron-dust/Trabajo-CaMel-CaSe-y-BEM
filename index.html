@@ -67,7 +67,7 @@
                 </ul>
     <section class="cuadrocomparativo"> <h3>Tabla comparativa.</h3>
         <table border="1" cellpadding="8" cellspacing="0">
-   <thead>
+   <thead class="cuadrocompa">
     <tr>
       <th>Aspecto</th>
       <th>BEM (Block Element Modifier)</th>
@@ -107,6 +107,42 @@
     </tr>
    </tbody>
    </table>
+
+    </section>
+   
+    <section class="cuadousar"> <h3>¿Cuando es adecuado usar Camel Case y BEM?.</h3>
+        <table border="1" cellpadding="8" cellspacing="0">
+     <thead>
+     <tr>
+        <th>Metodología</th>
+        <th>Cuándo usarla</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>BEM (Block Element Modifier)</strong></td>
+        <td>
+          <ul>
+           <li>Cuando estás trabajando en un proyecto de gran escala con muchos estilos CSS.</li>
+           <li>Cuando hay varios desarrolladores trabajando en el mismo código.</li>
+           <li>Cuando necesitas una estructura clara, modular y predecible para mantener el código CSS ordenado.</li>
+           <li>Cuando aplicas metodologías como ITCSS, OOCSS o Atomic Design.</li>
+         </ul>
+       </td>
+     </tr>
+     <tr>
+       <td><strong>camelCase</strong></td>
+         <td>
+          <ul>
+           <li>Cuando trabajas en JavaScript o frameworks como React, donde es común usar camelCase para clases, IDs o estilos en línea.</li>
+           <li>Cuando el proyecto es pequeño o personal, y no requiere una estructura compleja.</li>
+           <li>Cuando defines nombres de variables, funciones o propiedades   dentro del código.</li>
+           <li>Cuando quieres mantener consistencia entre HTML, CSS y JavaScript.</li>
+          </ul>
+          </td>
+        </tr>
+      </tbody>
+     </table>
 
     </section>
 
