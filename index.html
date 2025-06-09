@@ -65,7 +65,51 @@
                     <strong> ➤ Ventaja: Clases en camelCase ayudan a mantener un estilo coherente y facilitan su uso en CSS y JavaScript.</strong>
 
                 </ul>
-                
+    <section class="cuadrocomparativo"> <h3>Tabla comparativa.</h3>
+        <table border="1" cellpadding="8" cellspacing="0">
+   <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>BEM (Block Element Modifier)</th>
+      <th>camelCase</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+      <td><strong>¿Qué es?</strong></td>
+      <td>Metodología para nombrar clases CSS por bloques, elementos y modificadores.</td>
+      <td>Convención para escribir nombres sin espacios, usando mayúsculas intermedias.</td>
+    </tr>
+    <tr>
+      <td><strong>Ejemplo en CSS</strong></td>
+      <td><code>.boton__icono--activo &#123; color: red; &#125;</code></td>
+      <td><code>.botonIconoActivo &#123; color: red; &#125;</code></td>
+    </tr>
+    <tr>
+      <td><strong>Ejemplo en HTML</strong></td>
+      <td><code>&lt;button class="boton__icono--activo"&gt;Aceptar&lt;/button&gt;</code></td>
+      <td><code>&lt;button class="botonIconoActivo"&gt;Aceptar&lt;/button&gt;</code></td>
+    </tr>
+    <tr>
+      <td><strong>Formato</strong></td>
+      <td><code>bloque__elemento--modificador</code></td>
+      <td><code>palabraCompuestaEnCamelCase</code></td>
+    </tr>
+    <tr>
+      <td><strong>Ventajas</strong></td>
+      <td>Estructura clara, jerárquica y modular. Facilita el mantenimiento de componentes.</td>
+      <td>Simple, rápido y más corto. Útil para JavaScript y proyectos pequeños.</td>
+    </tr>
+    <tr>
+      <td><strong>Popular en</strong></td>
+      <td>CSS escalable, metodologías como OOCSS, ITCSS, proyectos grandes.</td>
+      <td>JavaScript (React, Angular), estilos en línea, proyectos simples.</td>
+    </tr>
+   </tbody>
+   </table>
+
+    </section>
+
 </section>
     
 </body>
