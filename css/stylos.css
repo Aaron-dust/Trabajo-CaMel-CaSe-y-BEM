@@ -1,12 +1,22 @@
 style
   body {
     margin: 0;
-    font-family: Verdana, sans-serif; /* Corregido y ajustado */
+    font-family: Verdana, sans-serif; 
     background-color: #0B0C10;
     color: #C5C6C7;
     line-height: 1.6;
   }
+   .contedinicio{
+    color: rgb(209, 179, 139);
 
+   }
+  .codebem1{
+    color: rgb(209, 179, 137);
+  }
+
+  .camelcase1{
+    color: rgb(209, 179, 138);
+  }
 
   header {
     text-align: center;
